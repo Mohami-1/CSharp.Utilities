@@ -26,11 +26,40 @@ namespace Utilities
         /// </summary>
         public enum LogLevel
         {
+            /// <summary>
+            /// Debug level, used for detailed diagnostic information.
+            /// Color: Gray
+            /// </summary>
             Debug = 0,
+
+            /// <summary>
+            /// Informational level, used for general application information.
+            /// Color: Cyan
+            /// </summary>
             Info = 1,
+
+            /// <summary>
+            /// Success level, used for successful operations.
+            /// Color: Green
+            /// </summary>
             Success = 2,
+
+            /// <summary>
+            /// Warning level, used for non-critical issues that require attention.
+            /// Color: Yellow
+            /// </summary>
             Warning = 3,
+
+            /// <summary>
+            /// Error level, used for errors that prevent normal operation.
+            /// Color: Red
+            /// </summary>
             Error = 4,
+
+            /// <summary>
+            /// Critical level, used for severe errors that require immediate attention.
+            /// Color: DarkRed
+            /// </summary>
             Critical = 5,
         }
 
